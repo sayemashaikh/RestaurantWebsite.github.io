@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Restaurant Website</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
     <link rel="stylesheet" href="style.css">
     
 </head>
@@ -32,7 +33,85 @@
     <form action="" id="search-form">
         <input type="search" placeholder="search here..." name="" id="search-box">
         <label for="search-box" class="fas fa-search"></label>
+        <i class="fas fa-times" id="close"></i>
     </form>
+
+    
+
+    <!-- home section starts  -->
+
+<section class="home" id="home">
+
+    <div class="swiper-container home-slider">
+
+        <div class="swiper-wrapper wrapper">
+
+            <div class="swiper-slide slide">
+                <div class="content">
+                    <span>our special dish</span>
+                    <h3>spicy noodles</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit natus dolor cumque?</p>
+                    <a href="#" class="btn">order now</a>
+                </div>
+                <div class="image">
+                    <img src="assets/home-img1.png" alt="">
+                </div>
+            </div>
+
+            <div class="swiper-slide slide">
+                <div class="content">
+                    <span>our special dish</span>
+                    <h3>fried chicken</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit natus dolor cumque?</p>
+                    <a href="#" class="btn">order now</a>
+                </div>
+                <div class="image">
+                    <img src="assets/home-img2.png" alt="">
+                </div>
+            </div>
+
+            <div class="swiper-slide slide">
+                <div class="content">
+                    <span>our special dish</span>
+                    <h3>hot pizza</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit natus dolor cumque?</p>
+                    <a href="#" class="btn">order now</a>
+                </div>
+                <div class="image">
+                    <img src="assets/home-img3.png" alt="">
+                </div>
+            </div>
+
+        </div>
+
+        
+
+    </div>
+
+</section>
+
+<section class="about-section" id="about">
+    <div class="container">
+        <div class="row">
+            <div class="section-title">
+                <h2 data-title="our story">about us</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="about-text">
+                <h3>Welcome To Dine Out Restaurant</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi a dolores eum et fuga modi officiis hic sit iure dolore, odio facilis atque quae. Assumenda quam recusandae non mollitia possimus molestias nobis beatae a nulla voluptas quos, dolorem rem aperiam dicta delectus natus veniam. Magnam.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti harum a voluptatem tempore laborum accusamus nisi expedita. Magnam tempore harum temporibus eos molestias maiores voluptatum adipisci, sit nesciunt deleniti accusantium maxime, aspernatur at dolore minus iure quasi voluptates dolorum architecto vel! Expedita officiis modi sunt.</p>
+                <a href="#our-menu" class="btn btn-default">check our menu</a>
+            </div>
+            <div class="about-img">
+                <img src="assets/about-img.jpg">
+            </div>
+        </div>
+    </div>
+</section>
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
     <script src="script.js"></script>
 </body>
 </html>
